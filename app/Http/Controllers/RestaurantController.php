@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Restaurant;
 use Illuminate\Http\Request;
+use Inertia\Inertia;
 
 class RestaurantController extends Controller
 {
@@ -12,7 +13,7 @@ class RestaurantController extends Controller
      */
     public function index()
     {
-        return 'Hello, this is the index method of the RestaurantController.';
+        return Inertia::render('Home');
     }
 
     /**
