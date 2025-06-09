@@ -13,7 +13,10 @@ class RestaurantController extends Controller
      */
     public function index()
     {
-        return Inertia::render('Home');
+        $restaurants =  Restaurant::all();
+        return Inertia::render('Home', [
+            'restaurants' => $restaurants,
+        ]);
     }
 
     /**
