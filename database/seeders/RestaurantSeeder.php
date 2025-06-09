@@ -28,19 +28,6 @@ class RestaurantSeeder extends Seeder
                 "updated_at" => "2019-11-10 18:20:18"
             ],
             [
-                "name" => "Landgasthof Adler",
-                "cuisine" => "Schwäbisch",
-                "street" => "Büchel",
-                "house_no" => "3",
-                "zip" => "88279",
-                "city" => "Amtzell",
-                "phone_no" => "075223311",
-                "url" => "https://www.adler-amtzell.de/",
-                "food_orderable" => true,
-                "created_at" => "2019-11-10 18:20:18",
-                "updated_at" => "2019-11-10 18:20:18"
-            ],
-            [
                 "name" => "Gasthof Kleber",
                 "cuisine" => "Deutsch/Schwäbisch",
                 "street" => "Schomburger Ste.",
